@@ -1,0 +1,189 @@
+/* 
+  Localizable.strings
+  Fondue
+
+  Created by Nanak on 16/02/18.
+  Copyright © 2018 Nanak. All rights reserved.
+*/
+//MARK :- App Messages
+//MARK :-=============//
+
+"Enter_Email" = "Please enter Email address";
+"Invalid_Email" = "Please enter a valid Email";
+"Invalid_First_Name" = "Name should contain only character";
+"Invalid_Middle_Name" = "Middle name must be character only";
+"Invalid_Last_Name" = "Name should contain only character";
+"First_Name_Invalid_Length" = "First name must be atleast 3 character long";
+"Invalid_Username" = "Please enter a valid Username";
+"Enter_First_Name" = "Please enter First name";
+"Enter_Middle_Name" = "Please enter Middle name";
+"Enter_Last_Name" = "Please enter last name";
+"Select_profile_image" = "Please select profile image";
+"Last_Name_Invalid_Length" = "Last name must be atleast 3 character long";
+
+"User_Name_Invalid_Length" = "User name must be atleast 6 character long";
+"ENTER_D_O_B" = "Please select dob";
+"Invalid_Phone" = "Please enter 8-10 digits for mobile no.";
+"Invalid_Password" = "Password must be of minimum 6 characters ";
+"Minimum_Age_limit" = "Minimum age is 18";
+"Maximum_Age_limit" = "Maximum age is 130";
+"SELECT_GENDER" = "Please select gender";
+"Enter_Mobile" = "Please enter mobile number";
+"Enter_Password" = "Please enter password";
+"Enter_Confirm_Password" = "Please enter confirm password";
+"Confirm_Password_Wrong" = "Confirm password does not match";
+"Invalid_City_Name" = "Please enter valid city name";
+"City_Name_Invalid_Length" = "City name must be atleast 3 character long";
+"Enter_City_name" = "Please enter city name";
+
+"Invalid_Region_Name" = "Please enter valid region name";
+"Region_Name_Invalid_Length" = "Region name must be atleast 3 character long";
+"Enter_Region_name" = "Please enter region name";
+
+"Invalid_Country_Code" = "Please enter valid Country code";
+"Enter_Country_code" = "Please enter country code";
+
+"Biography_Invalid_Length" = "Biography must be atleast 3 character long";
+"Enter_Biography" = "Please enter biography";
+"Something_Went_Wrong" = "Something went wrong";
+
+//MARK:- SignupVC
+//===============
+"Male" = "Male";
+"Female" = "Female";
+"Other" = "Other";
+
+"First_Name" = "First Name";
+"Middle_Name" = "Middle Name";
+"Last_Name" = "Last Name";
+"User_Name" = "User Name";
+"Gender" = "Gender";
+"Date_Of_Birth" = "Date Of Birth";
+"Phone_No" = "Phone No";
+"Password" = "Password";
+"City" = "City";
+"Country_Code" = "Country Code";
+"Region" = "Region";
+"Longitude" = "Longitude";
+"Latitude" = "Latitude";
+"Postal_Code" = "Postal Code";
+"Confirm_Password" = "Confirm Password";
+"Done" = "Done";
+
+//MARK:- LoginVC
+//==============
+"Ok" = "Ok";
+"LOGIN" = "LOGIN";
+"Back" = "Back";
+"Email_Address" = "Email Address";
+"Password" = "Password";
+"FORGOT_PASSWORD" = "FORGOT PASSWORD";
+"Logout" = "Logout";
+"Terms_Condition" = "By continuing you indicate that you have read and agree to the Terms of Service.";
+"T_S" = "Terms of Service";
+"Forgot_Enter_Email" = "Enter email address";
+
+//MARK:- SignUpOption
+//=====================
+"Spotify" = "Spotify";
+"Apple Music" = "Apple Music";
+"Tidal" = "Tidal";
+"Deezer" = "Deezer";
+"Sign_up" = "Sign Up";
+
+"Sign_up_with_DSP" = "Sign Up With DSP";
+"Sign_up_with_email " = "Sign Up With Email";
+"Sign_up_with_facebook" = "Sign Up With Facebook";
+
+
+"GO_TO_DEEZER" = "Go to Deezer";
+"GO_TO_SPOTIFY" = "Go to Spotify";
+"GO_TO_TIDL" = "Go to Tidal";
+"GO_TO_APPLEMUSIC" = "Go to AppleMusic";
+
+"NOT_A_PREMIUM" = "Not a premium member";
+"GOTO_DEEZER_SUBSCRIPTION" = "For becoming premium member, use Deezer account for purchasing subscription.";
+"GOTO_SPOTIFY_SUBSCRIPTION" = "For becoming premium member, use Spotify account for purchasing subscription.";
+"GOTO_TIDAL_SUBSCRIPTION" = "For becoming premium member, use Tidal account for purchasing subscription.";
+"GOTO_APPLEMUSIC_SUBSCRIPTION" = "For becoming premium member, use AppleMusic account for purchasing subscription.";
+
+
+
+//MARK:- Import playlist
+//MARK:================================
+"Import_playlist_Title" = "Import your Playlists";
+"NEXT" = "Next";
+"Import_Spotify" = "Import your playlists from Spotify to Fondue";
+"Import_AppleMusic" = "Import your playlists from Apple Music to Fondue";
+"Import_Deezer" = "Import your playlists from Deezer to Fondue";
+"Import_Tidal" = "Import your playlists from Tidal to Fondue";
+
+
+//MARK:- TrackShareVC
+//=======================
+
+"Facebook" = "Facebook";
+"Message" = "Message";
+"Snapchat" = "Snapchat";
+"Messenger" = "Messenger";
+"WhatsApp" = "WhatsApp";
+"Copy_Link" = "Copy Link";
+
+//MARK:- CollaboratorsVC
+//=======================
+
+"Who_Are_Your_Collaborators" = "Who Are Your Collaborators";
+"Invite_your_friends" = "Invite your friends from your contacts";
+
+//MARK:- ForgotPasswordVC
+//=======================
+"Send_OTP_to_email_address" = "Send OTP to email address";
+"CONTINUE" = "CONTINUE";
+"Send_OTP" = "Send OTP";
+"Verify_OTP" = "Verify OTP";
+"Enter_OTP_text" = "Enter OTP";
+
+//MARK:- UserDetailViewController
+//===============================
+"Change_Password" = "Change Password";
+
+
+//MARK:- HomeViewController
+//=========================
+"SIGNUP" = "SIGNUP";
+
+//MARK:- ChangePasswordVC
+//=======================
+"Old_Password" = "Old Password";
+"New_Password" = "New Password";
+"CHANGE_PASSWORD" = "CHANGE PASSWORD";
+"RESET_PASS" = "Reset Password";
+"Enter_Old_Password" = "Please enter old password";
+"Invalid_Old_Password" = "Invalid old password";
+"Enter_New_Password" = "Please enter new password";
+"Invalid_New_Password" = "Invalid new password";
+
+//MARK:- CountryCodeVC
+//=======================
+"Select_Country" = "Select Country";
+"Search_Country" = "Search Country";
+
+//MARK:- ChangePasswordVC
+//=======================
+"Enter_New_Password_For_Your_Account" = "Enter new password for your account";
+
+
+//MARK:- UIViewController Extension
+//=================================
+"Choose_Options" = "Choose Options";
+"Camera" = "Camera";
+"Camera_not_available" = "Camera not available";
+"Choose_from_gallery" = "Choose from gallery";
+"Take_Photo" = "Take Photo";
+"Cancel" = "Cancel";
+"Alert" = "Alert";
+"Settings" = "Settings";
+"You_have_been_restricted_from_using_the_camera_on_this_device_without_camera_access_this_feature_wont_work" = "You have been restricted from using the camera on this device without camera access this feature wont work";
+"Please_change_your_privacy_setting_from_the_Settings_app_and_allow_access_to_camera_for_your_app" = "Please change your privacy setting from the Settings app and allow access to camera for your app";
+"Youve_been_restricted_from_using_the_library_on_this_device_Without_camera_access_this_feature_wont_work" = "You have been restricted from using the photo library on this device Without camera access this feature wont work";
+"Please_change_your_privacy_setting_from_the_Settings_app_and_allow_access_to_library_for" = "Please change your privacy setting from the Settings app and allow access to library for your app";

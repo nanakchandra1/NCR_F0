@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Brandon_bld.otf">
+            <string>BrandonGrotesque-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlayTrackView" customModule="Fondue" customModuleProvider="target">
+            <connections>
+                <outlet property="playBtn" destination="PRu-H7-nVR" id="aQS-9g-0Ec"/>
+                <outlet property="playTrackBgView" destination="iN0-l3-epB" id="yXb-k7-jkI"/>
+                <outlet property="playTrackImageView" destination="ibS-S5-HZ5" id="mx4-Gk-hTD"/>
+                <outlet property="trackNameLabel" destination="BtR-xZ-CzP" id="6SH-zJ-Tcg"/>
+                <outlet property="trackSingerNameLabel" destination="t0b-3N-19v" id="a9P-ia-feu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="643" height="166"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uV8-b5-Cry">
+                    <rect key="frame" x="0.0" y="0.0" width="643" height="166"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ibS-S5-HZ5">
+                            <rect key="frame" x="12" y="60.5" width="45" height="45.5"/>
+                            <color key="backgroundColor" red="0.0" green="0.40784313729999999" blue="0.45098039220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="ibS-S5-HZ5" secondAttribute="height" multiplier="1:1.01" id="J9t-Jm-QLY"/>
+                                <constraint firstAttribute="width" constant="45" id="OrX-SM-FRy"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kelsey" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0b-3N-19v">
+                            <rect key="frame" x="65" y="63" width="499.5" height="23"/>
+                            <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Metro Station -Metro Station EP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BtR-xZ-CzP">
+                            <rect key="frame" x="65" y="87" width="499.5" height="17.5"/>
+                            <fontDescription key="fontDescription" name="BrandonGrotesque-Bold" family="Brandon Grotesque" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PRu-H7-nVR">
+                            <rect key="frame" x="579.5" y="63.5" width="50" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="kfj-dL-wNh"/>
+                                <constraint firstAttribute="height" constant="40" id="r3C-nA-p1L"/>
+                            </constraints>
+                            <state key="normal" image="icMainPagePlay"/>
+                            <connections>
+                                <action selector="playBtnTap:" destination="-1" eventType="touchUpInside" id="zGI-hI-WiB"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.039215686270000001" green="0.63137254899999995" blue="0.69411764710000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="PRu-H7-nVR" firstAttribute="centerY" secondItem="ibS-S5-HZ5" secondAttribute="centerY" id="B2O-ha-9jk"/>
+                        <constraint firstItem="ibS-S5-HZ5" firstAttribute="centerY" secondItem="uV8-b5-Cry" secondAttribute="centerY" id="J5J-Y0-8tV"/>
+                        <constraint firstItem="t0b-3N-19v" firstAttribute="leading" secondItem="ibS-S5-HZ5" secondAttribute="trailing" constant="8" id="QWg-AX-bbe"/>
+                        <constraint firstAttribute="trailing" secondItem="PRu-H7-nVR" secondAttribute="trailing" constant="13.5" id="VRP-Md-GH7"/>
+                        <constraint firstItem="BtR-xZ-CzP" firstAttribute="leading" secondItem="t0b-3N-19v" secondAttribute="leading" id="WoY-ut-dYI"/>
+                        <constraint firstItem="BtR-xZ-CzP" firstAttribute="trailing" secondItem="t0b-3N-19v" secondAttribute="trailing" id="Xxq-j0-Ke5"/>
+                        <constraint firstItem="ibS-S5-HZ5" firstAttribute="leading" secondItem="uV8-b5-Cry" secondAttribute="leading" constant="12" id="asH-Eq-1db"/>
+                        <constraint firstItem="BtR-xZ-CzP" firstAttribute="top" secondItem="t0b-3N-19v" secondAttribute="bottom" constant="1" id="c3c-YX-15R"/>
+                        <constraint firstItem="t0b-3N-19v" firstAttribute="centerY" secondItem="ibS-S5-HZ5" secondAttribute="centerY" constant="-9" id="mul-9P-M7k"/>
+                        <constraint firstItem="PRu-H7-nVR" firstAttribute="leading" secondItem="t0b-3N-19v" secondAttribute="trailing" constant="15" id="xsK-ib-6Oq"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="uV8-b5-Cry" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="5La-n1-S4b"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="uV8-b5-Cry" secondAttribute="trailing" id="DSc-sT-ITF"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="uV8-b5-Cry" secondAttribute="bottom" id="PgE-Cj-elk"/>
+                <constraint firstItem="uV8-b5-Cry" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Rg5-gh-xx6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-173.5" y="-57"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icMainPagePlay" width="53" height="26"/>
+    </resources>
+</document>
